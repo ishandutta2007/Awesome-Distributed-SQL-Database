@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360">
+  <defs>
+    <!-- Background Linear Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.8" stroke-opacity="0.45"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .node-pulse {
+      animation: pulse 4s ease-in-out infinite;
+    }
+    .node-pulse-delayed {
+      animation: pulse 4s ease-in-out infinite 2s;
+    }
+    .flow-line {
+      stroke-dasharray: 8, 8;
+      animation: dash 25s linear infinite;
+    }
+    .float-card {
+      animation: floatSlow 6s ease-in-out infinite alternate;
+    }
+    .float-card-2 {
+      animation: floatSlow2 7s ease-in-out infinite alternate;
+    }
+    @keyframes dash {
+      to {
+        stroke-dashoffset: -400;
+      }
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 0.35; }
+      50% { transform: scale(1.15); opacity: 0.75; }
+    }
+    @keyframes floatSlow {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(-8px); }
+    }
+    @keyframes floatSlow2 {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(10px); }
+    }
+  </style>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="360" fill="url(#bgGrad)" />
+  <rect width="1200" height="360" fill="url(#grid)" />
+
+  <!-- Dynamic Distributed Graph Background Layer -->
+  <g opacity="0.35">
+    <!-- Connecting Edges with subtle flow -->
+    <line x1="120" y1="80" x2="320" y2="280" stroke="#38bdf8" stroke-width="1.5" class="flow-line" />
+    <line x1="320" y1="280" x2="600" y2="70" stroke="#818cf8" stroke-width="1.5" class="flow-line" />
+    <line x1="600" y1="70" x2="920" y2="290" stroke="#c084fc" stroke-width="1.5" class="flow-line" />
+    <line x1="920" y1="290" x2="1100" y2="100" stroke="#38bdf8" stroke-width="1.5" class="flow-line" />
+    <line x1="600" y1="70" x2="1100" y2="100" stroke="#818cf8" stroke-width="1.5" stroke-opacity="0.5" />
+    <line x1="120" y1="80" x2="600" y2="70" stroke="#818cf8" stroke-width="1.5" stroke-opacity="0.5" />
+
+    <!-- Pulsing Distributed Node Rings -->
+    <circle cx="120" cy="80" r="28" fill="#38bdf8" opacity="0.1" class="node-pulse" />
+    <circle cx="120" cy="80" r="14" fill="#0284c7" />
+    <circle cx="120" cy="80" r="5" fill="#e0f2fe" />
+
+    <circle cx="320" cy="280" r="32" fill="#818cf8" opacity="0.1" class="node-pulse-delayed" />
+    <circle cx="320" cy="280" r="16" fill="#4f46e5" />
+    <circle cx="320" cy="280" r="6" fill="#e0e7ff" />
+
+    <circle cx="600" cy="70" r="35" fill="#38bdf8" opacity="0.1" class="node-pulse" />
+    <circle cx="600" cy="70" r="18" fill="#0369a1" />
+    <circle cx="600" cy="70" r="7" fill="#f0f9ff" />
+
+    <circle cx="920" cy="290" r="30" fill="#c084fc" opacity="0.1" class="node-pulse-delayed" />
+    <circle cx="920" cy="290" r="15" fill="#9333ea" />
+    <circle cx="920" cy="290" r="6" fill="#fae8ff" />
+
+    <circle cx="1100" cy="100" r="28" fill="#38bdf8" opacity="0.1" class="node-pulse" />
+    <circle cx="1100" cy="100" r="14" fill="#0284c7" />
+    <circle cx="1100" cy="100" r="5" fill="#e0f2fe" />
+  </g>
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="200" cy="50" r="140" fill="#0284c7" opacity="0.12" filter="url(#glow)" />
+  <circle cx="1000" cy="300" r="160" fill="#7c3aed" opacity="0.12" filter="url(#glow)" />
+
+  <!-- Animated Accent Pills in Background Layer -->
+  <g class="float-card" opacity="0.6">
+    <rect x="80" y="270" width="130" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="145" y="291" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">⚡ ACID Guaranteed</text>
+  </g>
+
+  <g class="float-card-2" opacity="0.6">
+    <rect x="990" y="250" width="140" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="1060" y="271" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">🌐 Geo-Partitioned</text>
+  </g>
+
+  <!-- Foreground Content: Header, Titles, Subtitles -->
+  <!-- Top Category Tag -->
+  <g>
+    <rect x="475" y="42" width="250" height="28" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.6"/>
+    <circle cx="493" cy="56" r="4" fill="#38bdf8" />
+    <text x="605" y="60" fill="#7dd3fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" text-anchor="middle">DISTRIBUTED SQL ECOSYSTEM</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="600" y="145" fill="url(#primaryGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', Helvetica, Arial, sans-serif" font-size="44" font-weight="800" text-anchor="middle" letter-spacing="-0.5" filter="drop-shadow(0px 4px 12px rgba(0,0,0,0.7))">
+    Awesome Distributed SQL
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="190" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="500" text-anchor="middle" letter-spacing="0.2">
+    Next-Gen Relational Databases • Horizontal Scale-Out • Strict ACID Consistency
+  </text>
+
+  <!-- Meta Badges in Foreground -->
+  <g transform="translate(360, 222)">
+    <!-- Pill 1: Cloud-Native & HTAP -->
+    <rect x="0" y="0" width="145" height="32" rx="8" fill="#1e293b" stroke="#3b82f6" stroke-width="1.2" stroke-opacity="0.8"/>
+    <text x="72" y="20" fill="#93c5fd" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">☁️ Cloud-Native HTAP</text>
+
+    <!-- Pill 2: Raft / Paxos Consensus -->
+    <rect x="160" y="0" width="165" height="32" rx="8" fill="#1e293b" stroke="#8b5cf6" stroke-width="1.2" stroke-opacity="0.8"/>
+    <text x="242" y="20" fill="#c4b5fd" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">🔄 Raft / Paxos Consensus</text>
+
+    <!-- Pill 3: MySQL & Postgres Compatible -->
+    <rect x="340" y="0" width="145" height="32" rx="8" fill="#1e293b" stroke="#ec4899" stroke-width="1.2" stroke-opacity="0.8"/>
+    <text x="412" y="20" fill="#f472b6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">🐘 PG &amp; MySQL Wire</text>
+  </g>
+
+  <!-- Bottom Accent Line -->
+  <rect x="450" y="295" width="300" height="2" rx="1" fill="url(#primaryGrad)" opacity="0.8" />
+</svg>
