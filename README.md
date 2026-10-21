@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Distributed-SQL-Database/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Distributed-SQL-Database?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Distributed-SQL-Database/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Distributed-SQL-Database?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Distributed-SQL-Database/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Distributed-SQL-Database?style=flat-square&color=blue" alt="Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Distributed-SQL-Database/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Distributed-SQL-Database?style=flat-square&color=orange" alt="Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Distributed-SQL-Database/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License" /></a>
@@ -79,57 +79,57 @@ The table below outlines leading enterprise cloud and SaaS platforms providing m
 
 ## 💻 Open-Source Distributed Database Projects
 
-The following active open-source projects power distributed SQL, horizontally scalable relational workloads, and distributed query processing. Sorted in descending order by GitHub stars.
+The following active open-source projects power distributed SQL, horizontally scalable relational workloads, and distributed query processing. Sorted in descending order by GitHub_Stars.
 
-1. **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** [![GitHub stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers)  
+1. **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** [![GitHub_Stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers)  
    🚀 Column-oriented distributed SQL DBMS for real-time analytical reporting (Apache-2.0). Blazing-fast SQL queries over petabytes of distributed data with linear scale-out.
 
-2. **[DuckDB](https://github.com/duckdb/duckdb)** [![GitHub stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)  
+2. **[DuckDB](https://github.com/duckdb/duckdb)** [![GitHub_Stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)  
    🦆 In-process SQL OLAP database management system (MIT). High-performance analytical query processing with seamless zero-copy integration across Apache Arrow, Parquet, and distributed analytical engines.
 
-3. **[TiDB](https://github.com/pingcap/tidb)** [![GitHub stars](https://img.shields.io/github/stars/pingcap/tidb?style=social&color=white)](https://github.com/pingcap/tidb/stargazers)  
+3. **[TiDB](https://github.com/pingcap/tidb)** [![GitHub_Stars](https://img.shields.io/github/stars/pingcap/tidb?style=social&color=white)](https://github.com/pingcap/tidb/stargazers)  
    ⚡ Cloud-native, distributed SQL database for modern applications (Apache-2.0). MySQL protocol compatible with horizontal write scalability, strong consistency via Raft, and real-time HTAP engine.
 
-4. **[SurrealDB](https://github.com/surrealdb/surrealdb)** [![GitHub stars](https://img.shields.io/github/stars/surrealdb/surrealdb?style=social&color=white)](https://github.com/surrealdb/surrealdb/stargazers)  
+4. **[SurrealDB](https://github.com/surrealdb/surrealdb)** [![GitHub_Stars](https://img.shields.io/github/stars/surrealdb/surrealdb?style=social&color=white)](https://github.com/surrealdb/surrealdb/stargazers)  
    🔮 Multi-model distributed database combining SQL, graph, and document store queries with distributed ACID transactions, real-time live queries, and granular permission access.
 
-5. **[CockroachDB](https://github.com/cockroachdb/cockroach)** [![GitHub stars](https://img.shields.io/github/stars/cockroachdb/cockroach?style=social&color=white)](https://github.com/cockroachdb/cockroach/stargazers)  
+5. **[CockroachDB](https://github.com/cockroachdb/cockroach)** [![GitHub_Stars](https://img.shields.io/github/stars/cockroachdb/cockroach?style=social&color=white)](https://github.com/cockroachdb/cockroach/stargazers)  
    🪳 Cloud-native distributed SQL database architected for high availability, zero-downtime rolling upgrades, geo-partitioning, and strongly consistent distributed ACID transactions with PostgreSQL wire compatibility.
 
-6. **[TDengine](https://github.com/taosdata/TDengine)** [![GitHub stars](https://img.shields.io/github/stars/taosdata/TDengine?style=social&color=white)](https://github.com/taosdata/TDengine/stargazers)  
+6. **[TDengine](https://github.com/taosdata/TDengine)** [![GitHub_Stars](https://img.shields.io/github/stars/taosdata/TDengine?style=social&color=white)](https://github.com/taosdata/TDengine/stargazers)  
    📈 Open-source distributed time-series database with full SQL support (AGPL-3.0). High-throughput ingestion, data caching, stream processing, and multi-node clustering for IoT and industrial big data.
 
-7. **[Neon](https://github.com/neondatabase/neon)** [![GitHub stars](https://img.shields.io/github/stars/neondatabase/neon?style=social&color=white)](https://github.com/neondatabase/neon/stargazers)  
+7. **[Neon](https://github.com/neondatabase/neon)** [![GitHub_Stars](https://img.shields.io/github/stars/neondatabase/neon?style=social&color=white)](https://github.com/neondatabase/neon/stargazers)  
    🟢 Serverless open-source alternative to AWS Aurora Postgres (Apache-2.0). Decouples compute and storage, offering instant database branching, scale-to-zero, and petabyte-scale cloud-native storage.
 
-8. **[Vitess](https://github.com/vitessio/vitess)** [![GitHub stars](https://img.shields.io/github/stars/vitessio/vitess?style=social&color=white)](https://github.com/vitessio/vitess/stargazers)  
+8. **[Vitess](https://github.com/vitessio/vitess)** [![GitHub_Stars](https://img.shields.io/github/stars/vitessio/vitess?style=social&color=white)](https://github.com/vitessio/vitess/stargazers)  
    🌐 Database clustering system for horizontal scaling of MySQL (Apache-2.0). Battle-tested at YouTube, Slack, and GitHub; encapsulates shard routing, dynamic resharding, connection pooling, and failover.
 
-9. **[Apache ShardingSphere](https://github.com/apache/shardingsphere)** [![GitHub stars](https://img.shields.io/github/stars/apache/shardingsphere?style=social&color=white)](https://github.com/apache/shardingsphere/stargazers)  
+9. **[Apache ShardingSphere](https://github.com/apache/shardingsphere)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/shardingsphere?style=social&color=white)](https://github.com/apache/shardingsphere/stargazers)  
    🔮 Distributed SQL ecosystem providing a transparent database gateway (Apache-2.0). Adds distributed transactions, horizontal sharding, read/write splitting, and data encryption to any standard relational database.
 
-10. **[rqlite](https://github.com/rqlite/rqlite)** [![GitHub stars](https://img.shields.io/github/stars/rqlite/rqlite?style=social&color=white)](https://github.com/rqlite/rqlite/stargazers)  
+10. **[rqlite](https://github.com/rqlite/rqlite)** [![GitHub_Stars](https://img.shields.io/github/stars/rqlite/rqlite?style=social&color=white)](https://github.com/rqlite/rqlite/stargazers)  
     💡 Lightweight, distributed relational database built on SQLite and the Raft consensus protocol (MIT). Provides effortless clustering, replication, and fault tolerance with an easy HTTP/SQL interface.
 
-11. **[QuestDB](https://github.com/questdb/questdb)** [![GitHub stars](https://img.shields.io/github/stars/questdb/questdb?style=social&color=white)](https://github.com/questdb/questdb/stargazers)  
+11. **[QuestDB](https://github.com/questdb/questdb)** [![GitHub_Stars](https://img.shields.io/github/stars/questdb/questdb?style=social&color=white)](https://github.com/questdb/questdb/stargazers)  
     ⏱️ High-performance, open-source distributed SQL time-series database (Apache-2.0). Column-oriented architecture with SIMD vectorization, InfluxDB Line Protocol ingestion, and PostgreSQL wire compatibility.
 
-12. **[Apache Doris](https://github.com/apache/doris)** [![GitHub stars](https://img.shields.io/github/stars/apache/doris?style=social&color=white)](https://github.com/apache/doris/stargazers)  
+12. **[Apache Doris](https://github.com/apache/doris)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/doris?style=social&color=white)](https://github.com/apache/doris/stargazers)  
     🐬 High-performance, real-time distributed analytical database (Apache-2.0). Supports high-concurrency point queries, sub-second reporting, and interactive analysis with standard MySQL protocol compatibility.
 
-13. **[Citus](https://github.com/citusdata/citus)** [![GitHub stars](https://img.shields.io/github/stars/citusdata/citus?style=social&color=white)](https://github.com/citusdata/citus/stargazers)  
+13. **[Citus](https://github.com/citusdata/citus)** [![GitHub_Stars](https://img.shields.io/github/stars/citusdata/citus?style=social&color=white)](https://github.com/citusdata/citus/stargazers)  
     🐘 PostgreSQL extension that transforms Postgres into a distributed database (AGPL-3.0). Horizontally shards tables across multiple nodes with distributed queries, reference tables, and columnar storage.
 
-14. **[StarRocks](https://github.com/StarRocks/starrocks)** [![GitHub stars](https://img.shields.io/github/stars/StarRocks/starrocks?style=social&color=white)](https://github.com/StarRocks/starrocks/stargazers)  
+14. **[StarRocks](https://github.com/StarRocks/starrocks)** [![GitHub_Stars](https://img.shields.io/github/stars/StarRocks/starrocks?style=social&color=white)](https://github.com/StarRocks/starrocks/stargazers)  
     ⭐ Next-generation sub-second distributed OLAP database (Apache-2.0). Features a vectorized execution engine, cost-based optimizer, real-time materialized views, and unified query acceleration over data lakes.
 
-15. **[YugabyteDB](https://github.com/yugabyte/yugabyte-db)** [![GitHub stars](https://img.shields.io/github/stars/yugabyte/yugabyte-db?style=social&color=white)](https://github.com/yugabyte/yugabyte-db/stargazers)  
+15. **[YugabyteDB](https://github.com/yugabyte/yugabyte-db)** [![GitHub_Stars](https://img.shields.io/github/stars/yugabyte/yugabyte-db?style=social&color=white)](https://github.com/yugabyte/yugabyte-db/stargazers)  
     🪐 High-performance distributed SQL database for mission-critical apps (Apache-2.0 core). Combines complete PostgreSQL runtime and wire compatibility with Google Spanner-inspired distributed Raft consensus and auto-sharding.
 
-16. **[OceanBase](https://github.com/oceanbase/oceanbase)** [![GitHub stars](https://img.shields.io/github/stars/oceanbase/oceanbase?style=social&color=white)](https://github.com/oceanbase/oceanbase/stargazers)  
+16. **[OceanBase](https://github.com/oceanbase/oceanbase)** [![GitHub_Stars](https://img.shields.io/github/stars/oceanbase/oceanbase?style=social&color=white)](https://github.com/oceanbase/oceanbase/stargazers)  
     🌊 Enterprise-grade distributed relational database designed for ultra-high transaction concurrency and multi-cloud resilience (MulanPubL-2.0). Native multi-tenancy, Paxos-based high availability, and HTAP capabilities.
 
-17. **[Apache Ignite](https://github.com/apache/ignite)** [![GitHub stars](https://img.shields.io/github/stars/apache/ignite?style=social&color=white)](https://github.com/apache/ignite/stargazers)  
+17. **[Apache Ignite](https://github.com/apache/ignite)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/ignite?style=social&color=white)](https://github.com/apache/ignite/stargazers)  
     🔥 Distributed database, caching, and in-memory data grid platform (Apache-2.0). Delivers distributed ACID transactions, ANSI-99 SQL support, machine learning APIs, and real-time processing capabilities.
 
 ---
@@ -140,7 +140,7 @@ Contributions make the open-source and data community thrive! Feel free to add n
 
 1. 🍴 Fork this repository.
 2. 🌿 Create your feature branch: `git checkout -b feature/new-database`
-3. 📝 Add your entry to `README.md` following the existing format (include link, license, description, and pricing/star badge).
+3. 📝 Add your entry to `README.md` following the existing format (include link, license, description, and pricing/Stars_Badge).
 4. 🚀 Commit your changes: `git commit -m "Add NewDistributedDatabase"`
 5. 📤 Push to the branch: `git push origin feature/new-database`
 6. 🎯 Open a Pull Request with a clear description of the project.
